@@ -2,8 +2,8 @@
 FROM jboss/wildfly:latest
 
 # Wildfly Console params
-ENV WILDFLY_USER admin
-ENV WILDFLY_PASS adminPassword
+ENV WILDFLY_USER andrea
+ENV WILDFLY_PASS passwordDiAndrea
 
 
 ENV MYSQL_VERSION 8.0.22
